@@ -1,0 +1,24 @@
+{
+  "name": "EnglishFlow — Học Tiếng Anh Cộng Đồng Miễn Phí 100%",
+  "short_name": "EnglishFlow",
+  "description": "Nền tảng rèn luyện Nghe - Nói tiếng Anh từ A1 đến B2 hoàn toàn miễn phí cho người Việt",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#2563EB",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

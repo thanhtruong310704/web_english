@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #4F46E5;
+  --color-primary-hover: #4338CA;
+  --color-bg-canvas: #F6F7FB;
+  --color-surface: #FFFFFF;
+
+  --color-success: #0D9488;
+  --color-danger: #E11D48;
+  --color-warning: #D97706;
+
+  --level-a1: #7C3AED;
+  --level-a2: #2563EB;
+  --level-b1: #0D9488;
+  --level-b2: #EA580C;
+
+  --color-xp: #F59E0B;
+  --color-streak: #EA580C;
+}
+
+body {
+  background-color: var(--color-bg-canvas);
+  color: #0f172a;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom subtle scrollbars for desktop panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
